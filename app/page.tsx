@@ -1,5 +1,7 @@
+import { HeroNews } from "@/components/hero-news"
+
 export default function Home(){
   return(
-    <h1>This is landing page</h1>
+    <HeroNews/>
   )
 }
