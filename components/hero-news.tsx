@@ -190,7 +190,7 @@ export const HeroNews = () => {
                 <path d="M55.5 0C61.0005 0.00109895 64.5005 2.50586 64.5 7.5V17C64.5 24.5059 68.5005 27.5 81 27.5H88C94.0005 27.5059 96.5 29.5059 96.5 37.5V98.5C96.5 106.006 95.0005 107.5 88 107.5H41.5C36.5005 107.5 32 104.506 32 98.5V88C32 84.5 28.5 80 20.5 80H8.5C3 80 0 76.5 0 71.5V6.5C0.00048844 1.50586 2.50049 0.00585937 8.5 0H55.5ZM31 20C28.7909 20 27 21.7909 27 24V74C27 76.2091 28.7909 78 31 78H58C60.2091 78 62 76.2091 62 74V24C62 21.7909 60.2091 20 58 20H31Z" />
               </svg>
               <span className="text-xl font-bold tracking-tight text-slate-900">
-                UI-Layout
+                Digest.ai
               </span>
             </div>
             <nav className="hidden md:flex items-center gap-10 text-sm font-semibold text-neutral-500">
@@ -218,18 +218,6 @@ export const HeroNews = () => {
       )}
       {/* Hero Content */}
       <div className="relative z-10 text-center pt-24 pb-16 px-4 flex flex-col gap-6">
-        <TimelineAnimation
-          animationNum={1}
-          timelineRef={timelineRef}
-          className="bg-white w-fit mx-auto text-black px-1.5 py-1 rounded-full inline-flex items-center gap-2 shadow-lg shadow-blue-500/20 border-2 border-white"
-        >
-          <span className="bg-linear-to-br from-blue-500 to-blue-200 text-white px-2 py-0.5 rounded-full text-xs font-medium uppercase tracking-widest">
-            New
-          </span>
-          <span className="text-sm font-medium">
-            Anouncing our latest product launch
-          </span>
-        </TimelineAnimation>
 
         <TimelineAnimation
           as="h1"
